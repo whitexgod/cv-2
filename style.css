@@ -19,24 +19,35 @@ background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, F
 
 }
 .body-style-project{
-  background: #BA5370;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F4E2D8, #BA5370);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F4E2D8, #BA5370); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: linear-gradient(-45deg, #EE7751, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
 }
 
 .body-style-resume{
-  background: #3D7EAA;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFE47A, #3D7EAA);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: linear-gradient(-45deg, #EE7751, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
 }
 .body-style
 {
-  background: #085078;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: linear-gradient(-45deg, #EE7751, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+}
+@keyframes change {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
 }
 
 .banner{
@@ -102,10 +113,10 @@ margin: 30px auto;
 }
 
 .box1{
-  width:93%;
+  width:100%;
   margin: auto;
   height:100vh;
-  background-image: url('https://media3.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif');
+  background-image: url('https://wallpaperaccess.com/full/1385515.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -116,7 +127,7 @@ margin: 30px auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #fff;
 }
 
 .box2{
@@ -207,7 +218,7 @@ margin: 30px auto;
 
 .resume-paper{
   width: 100%;
-  height: 120vh;
+  height: 130vh;
   background-image: url('https://thumbs.gfycat.com/TestyDisloyalChinchilla-size_restricted.gif');
   background-repeat: no-repeat;
   background-position: center;
