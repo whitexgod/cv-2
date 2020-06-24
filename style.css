@@ -1,0 +1,218 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+#loading{
+position:fixed;
+width:100%;
+height:100vh;
+background: #fff
+url('Eclipse.gif') no-repeat center;
+z-index:99999;
+}
+
+.body-style-blog{
+  background: #005AA7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.body-style-project{
+  background: #BA5370;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F4E2D8, #BA5370);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F4E2D8, #BA5370); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.body-style-resume{
+  background: #3D7EAA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFE47A, #3D7EAA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.body-style
+{
+  background: #085078;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.banner{
+  width: 100%;
+  height: 40vh;
+  background-image: url('https://halocarbon-es.com/wp-content/uploads/2019/02/AnimatedMicrochip2.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin:auto;
+  position: relative;
+  color: white;
+}
+
+.centered{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+.banner-text-content{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 50px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.banner-text-content:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 0s;
+}
+
+.dp{
+  margin: auto;
+  width: 42%;
+  height: 40vh;
+  padding: 2%;
+  margin-left: 30%;
+}
+.image2{
+  float: right;
+  margin: auto;
+  width: 35%;
+  height: 45vh;
+  padding: 4%;
+  opacity: .8;
+}
+.hr
+{
+border: dotted grey 6px;
+border-bottom: none;
+width: 8%;
+margin: 30px auto;
+}
+
+.box1{
+  width:93%;
+  margin: auto;
+  height:100vh;
+  background-image: url('https://media3.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.box1-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.box2{
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  height: 30vh;
+  position: relative;
+}
+
+.project-banner{
+  width: :100%;
+  height:40vh;
+  background-image: url('https://media2.giphy.com/media/7R2pn3YqttaI8/source.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin:auto;
+  position: relative;
+  color: white;
+}
+.blog-banner{
+  width: :100%;
+  height:40vh;
+  background-image: url('https://i.gifer.com/UrhN.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin:auto;
+  position: relative;
+  color: white;
+}
+
+.card-boby-project{
+  width: 100%;
+  padding: 4%;
+  margin:auto;
+}
+
+.container1-head{
+  width: 100%;
+  height: 60vh;
+}
+.container1-body{
+  width: 100%;
+  height: 40vh;
+}
+.container2-head{
+  width: 100%;
+  height: 60vh;
+}
+.container2-body{
+  width: 100%;
+  height: 40vh;
+}
+.container3-head{
+  width: 100%;
+  height: 60vh;
+}
+.container3-body{
+  width: 100%;
+  height: 40vh;
+}
+
+.banner-resume{
+  width: 100%;
+  height: 40vh;
+  background-image: url('https://www.itl.cat/pngfile/big/183-1830929_stripes-background-wallpaper-hd-youtube-cover-photo-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin:auto;
+  position: relative;
+  color: white;
+}
+
+.video-resume{
+  width: 100%;
+  height: 25vh;
+  margin:auto;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color:#fff;
+  padding: 5%;
+}
+
+.resume-paper{
+  width: 100%;
+  height: 120vh;
+  background-image: url('https://thumbs.gfycat.com/TestyDisloyalChinchilla-size_restricted.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin:auto;
+  position: relative;
+  color: white;
+}
