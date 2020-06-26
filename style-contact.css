@@ -53,3 +53,31 @@ background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, F
   transform: scale(1.3);
   color: #f1f1f1;
 }
+
+#footer{
+  text-align:center;padding:2%;margin-top:10%
+}
+@media all and (max-width: 400px){
+  .body-style-contact{
+    background: #FDC830;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .middle{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+  }
+
+  #footer{
+    text-align:center;padding:2%;margin-top:10%;
+    padding-top: 150%;
+  }
+  .emailid{
+    margin: auto;
+    padding-top: 100%;
+    }
+  }
+}
