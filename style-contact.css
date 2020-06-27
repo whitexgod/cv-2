@@ -57,7 +57,56 @@ background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, F
 #footer{
   text-align:center;padding:2%;margin-top:10%
 }
-@media all and (max-width: 500px)
+
+
+@media all and (max-width:1050px) and (min-width: 800px)
+{
+  .body-style-contact{
+    background: #ff7e5f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+  .middle{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+
+  #footer{
+    text-align:center;
+    padding-top: 100%;
+  }
+  .emailid{
+    margin: auto;
+    }
+  }
+  @media all and (max-width: 799px) and (min-width: 500px)
+  {
+    .body-style-contact{
+      background: #ff7e5f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    .middle{
+      position: absolute;
+      width: 100%;
+      text-align: center;
+    }
+
+    #footer{
+      text-align:center;
+      padding-top: 100%;
+    }
+    .emailid{
+      margin: auto;
+      }
+    }
+
+@media all and (max-width: 499px) and (min-width: 200px)
 {
   .body-style-contact{
     background: #ff7e5f;  /* fallback for old browsers */
@@ -82,51 +131,3 @@ background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, F
     padding-top: 100%;
     }
   }
-
-@media all and (max-width: 800px)
-{
-  .body-style-contact{
-    background: #ff7e5f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  }
-
-  .middle{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-  }
-
-  #footer{
-    text-align:center;
-    padding-top: 100%;
-  }
-  .emailid{
-    margin: auto;
-    }
-  }
-
-  @media all and (max-width:1050px)
-  {
-    .body-style-contact{
-      background: #ff7e5f;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
-
-    .middle{
-      position: absolute;
-      width: 100%;
-      text-align: center;
-    }
-
-    #footer{
-      text-align:center;
-      padding-top: 100%;
-    }
-    .emailid{
-      margin: auto;
-      }
-    }
