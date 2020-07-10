@@ -284,7 +284,7 @@ margin: 30px auto;
 }
 
 
-@media all and (max-width: 1050px) and (min-width: 700px)
+@media all and (max-width: 1050px) and (min-width: 800px)
 {
 
   .banner-text-content{
@@ -460,7 +460,7 @@ margin: 30px auto;
 
 }
 
-@media all and (max-width: 699px) and (min-width: 500px)
+@media all and (max-width: 800px) and (min-width: 500px)
 {
 
   .banner-text-content{
@@ -634,7 +634,7 @@ margin: 30px auto;
 }
 
 
-@media all and (max-width: 499px) and (min-width: 200px)
+@media all and (max-width: 500px) and (min-width: 200px)
 {
 
   .banner-text-content{
